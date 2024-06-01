@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;
+    0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,
+    100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;
+    1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,
+    600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,
+    900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Mi portafolio</title>
+</head>
+<body class="bg-sky-50 text-stone-900 dark:bg-primary dark:text-cyan-50">
+  <header>
+<!--INICIO MENU-->
+    <nav class="flex justify-between py-10 m-auto px-10 text-lg font-medium tracking-widest md:items-center">
+      <i class='bx bx-vector text-4xl text-sky-600'></i>
+      <div 
+        id="menu" 
+        class="bg-white dark:bg-slate-800 p-7 h-[380px] w-[320px] md:flex flex-col 
+        items-start justify-around rounded-lg text-dark dark:text-white md:flex-row 
+        md:w-full md:py-0 md:h-[50px] md:bg-inherit md:dark:bg-primary hidden">
+          <ul class="flex h-5/6 flex-col justify-around md:flex-row md:justify-center w-full">
+            <li class="md:px-5 hover:text-sky-400 text-3xl">
+              <a href="">Quién soy</a>
+            </li>
+            <li class="md:px-5 hover:text-sky-400 text-3xl">
+              <a href="">Experiencia</a>
+            </li>
+            <!-- <li class="md:px-5 hover:text-sky-400 text-2xl">
+              <a href="">Proyectos</a>
+            </li> -->
+            <li class="md:px-5 hover:text-sky-400 text-3xl">
+              <a href="">Contáctame</a>
+            </li>
+          </ul>
+<!--INICIO BOTON MODO OSCURO-->
+          <button 
+            id="darkButton">
+            <i class="bi bi-moon-stars-fill text-sky-600 text-2xl"></i>
+          </button>
+<!--FIN BOTON MODO OSCURO-->
+      </div>
+<!--INICIO BOTON MENU HAMBURGUESA-->
+      <button 
+        id="menu-button" 
+        class="absolute top-10 right-12 md:hidden">        
+        <span 
+          class="br-1 block bg-black dark:bg-white my-2 
+          rounded-md h-[3px] w-[28px]"
+        ></span>
+        <span 
+          class="br-2 block bg-black dark:bg-white my-2 
+          rounded-md h-[3px] w-[28px]"
+        ></span>
+        <span 
+          class="br-3 block bg-black dark:bg-white my-2 
+          rounded-md h-[3px] w-[28px]"
+        ></span>
+      </button>
+<!--FIN BOTON MENU HAMBURGUESA-->
+    </nav>
+<!--FIN MENU-->  
+  </header>
+  <main>
+    <section class="my-0 flex flex-col lg:flex-row lg:h-[500px] lg:self-center">
+      <div class="p-10 lg:w-[80%] lg:h-[500px]">
+        <h1 class="text-sky-600 dark:text-sky-500 text-3xl font-bold 
+        tracking-widest leading-10">
+          Hola, soy
+        </h1>
+        <p class="py-2 text-3xl font-bold
+         text-slate-600 dark:text-slate-300">
+           Uriel Español
+        </p>
+        <p class="text-3xl font-bold text-slate-500 dark:text-slate-600">
+          Próximamente Full Stack Development
+        </p>
+        <p class="mt-5 text-lg">Soy Técnico eléctrico, técnologo e ingeniero Mecánico,
+          actualmente estoy enfocado en convertirme en Full Stack 
+          Development - desarrollador «front-end» y «back-end»
+        </p>
+<!--REDES SOCIALES / CONTACTO-->
+        <div class="py-6">
+          <a class="pr-2 text-2xl 
+          hover:text-sky-600" 
+          href="https://www.linkedin.com/in/uriel-alejandro-espa%C3%B1ol-marroquin-685b96135?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          ><i class="bi bi-linkedin px-2"></i>
+          </a>
+          <a class="pr-2 text-2xl
+          hover:text-sky-600" href="">
+            <i class="bi bi-github px-2"></i>
+          </a>
+          <a class="pr-2 text-2xl 
+          hover:text-sky-600" href="">
+            <i class="bi bi-whatsapp px-2"></i>
+          </a>
+          <a class="pr-2 text-2xl 
+          hover:text-sky-600" href="">
+            <i class="bi bi-instagram px-2"></i>
+          </a>
+        </div>
+<!--FIN REDES SOCIALES / CONTACTO-->
+<!--INICIO BOTON CONTRATAME-->
+      <div>
+        <button class="border-2 rounded border-sky-500 p-4 w-[250px] 
+        text-lg tracking-widest hover:bg-sky-500 
+        hover:dark:text-slate-900 ">
+          Contrátame
+        </button>
+      </div>      
+<!--FIN BOTON CONTRATAME-->
+    </div>
+<!--IMAGEN AVATAR-->    
+      <div class="my-1 w-full h-[300px]">
+        <div class="w-[300px] h-[320px] m-auto 
+        bg-cover lg:w-[80%] lg:h-[100%] lg:bg-center 
+        lg:bg-no-repeat rounded-3xl">
+        <img 
+          class="w-full h-full rounded-[inherit]" 
+          src="./src/image/avatar.jpg"
+          alt="Imagen de perfil avatar">
+        </div>
+      </div>      
+    </section>
+    <h2 class="text-4xl text-slate-700 dark:text-white font-bold 
+    tracking-widest w-[85%] m-auto text-center pt-6">
+<!--INICIO EXPERIENCIA LABORAL-->
+      Experiencia Laboral
+    </h2>
+    <section 
+       id="jobSection"
+       class="my-12 flex flex-col w-[84%] m-auto 
+       lg:flex-row lg:w-[87%] lg:my28" 
+    >
+      <div class="flex justify-between lg:flex-col 
+      lg:w-[18%]">
+        <button 
+          id="link1" 
+          type="button" 
+          data-id="job1" 
+          class="border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1
+          hover:bg-white focus:bg-white focus:border-sky-500
+          focus:dark:bg-slate-700 lg:border-l-2 lg:h-full lg:text-left
+          border-sky-500 bg-white dark:bg-slate-700">
+          Vanti SA ESP
+        </button>
+        <button 
+          type="button" 
+          data-id="job2" 
+          class="border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1
+          hover:bg-white focus:bg-white focus:border-sky-500
+          focus:dark:bg-slate-700 lg:border-l-2 lg:h-full lg:text-left">
+          Tecnogas LTDA
+        </button>
+        <button 
+          type="button" 
+          data-id="job3" 
+          class="border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1 
+          hover:bg-white focus:bg-white focus:border-sky-500 
+          focus:dark:bg-slate-700 lg:border-l-2 lg:h-full lg:text-left">
+          IMS
+        </button>
+        <button 
+          type="button" 
+          data-id="job4" 
+          class="border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1
+          hover:bg-white focus:bg-white focus:border-sky-500
+          focus:dark:bg-slate-700 lg:border-l-2 lg:h-full lg:text-left">
+          ISTM Ingeniería
+        </button>
+      </div>
+<!--DESCRIPCION DEL TRABAJO-->
+      <div class="my-5 lg:px10 lg:my-0 lg:max-w-[800px]">
+<!--PRIMER EXPERIENCIA-->     
+      <article id="job1">
+        <h3>Supervisor de Mantenimiento 
+          <span class="text-sky-500 font-bold text-lg">@Vanti SA ESP</span>
+        </h3>
+        <h4 class="text-sm pb-5">Diciembre de 2018 - Abril de 2023</h4>
+        <ul>
+          <li class="flex items-center py-2">
+            <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+            <p class="text-stone-950 dark:text-cyan-50 font-normal px-5"> 
+              Supervisar, coordinar y programar las actividades de los trabajadores que instalan, reparan y mantienen
+              los sistemas de tuberías utilizadas para gas natural en instalaciones residenciales, comerciales e industriales.
+            </p>
+          </li>
+          <li class="flex items-center py-2">
+            <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+            <p class="text-stone-950 dark:text-cyan-50 font-normal px-5"> 
+              Realizar o disponer el entrenamiento de los trabajadores
+            </p>
+          </li>
+          <li class="flex items-center py-2">
+            <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+            <p class="text-stone-950 dark:text-cyan-50 font-normal px-5">
+              Velar por el cumplimiento de las normas de seguridad
+            </p>
+          </li>
+        </ul>        
+      </article>
+<!--SEGUNDA EXPERIENCIA-->     
+    <article id="job2" class="hidden">
+      <h3>Técnico de Medición 
+        <span class="text-sky-500 font-bold text-lg">@Tecnogas LTDA</span></h3>
+      <h4 class="text-sm pb-5">Enero de 2017 - Diciembre de 2018</h4>
+      <ul>
+        <li class="flex items-center py-2">
+          <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+          <p class="text-stone-950 dark:text-cyan-50 font-normal px-5"> 
+            Instalar y dar mantenimiento a los medidores, reguladores, líneas, 
+            redes internas e instalaciones de gas de acuerdo al diseño.
+          </p>
+        </li>
+        <li class="flex items-center py-2">
+          <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+          <p class="text-stone-950 dark:text-cyan-50 font-normal px-5"> 
+            Probar y ajustar los mecanismos de control y revisar la tubería maestra,
+            redes de distribución y conexiones para prevenir y localizar escapes 
+            utilizando aparatos y líquidos detectores
+          </p>
+        </li>
+        <li class="flex items-center py-2">
+          <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+          <p class="text-stone-950 dark:text-cyan-50 font-normal px-5">
+            Instalar, mantener y dar servicio a las unidades de calefacción,
+            artefactos, equipos y centros de medición
+          </p>
+        </li>
+      </ul>        
+    </article>
+<!--TERCERA EXPERIENCIA-->     
+    <article id="job3" class="hidden">
+      <h3>Tecnólogo Mecánico
+        <span class="text-sky-500 font-bold text-lg">@IMS</span></h3>
+      <h4 class="text-sm pb-5">Diciembre de 2013 - Diciembre de 2016</h4>
+      <ul>
+        <li class="flex items-center py-2">
+          <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+          <p class="text-stone-950 dark:text-cyan-50 font-normal px-5"> 
+            Reparación, mantenimiento de equipos y maquinaria.          
+          </p>
+        </li>
+        <li class="flex items-center py-2">
+          <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+          <p class="text-stone-950 dark:text-cyan-50 font-normal px-5"> 
+            Preparar reportes de trabajo realizado y condiciones de las
+            instalaciones
+          </p>
+        </li>
+        <li class="flex items-center py-2">
+          <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+          <p class="text-stone-950 dark:text-cyan-50 font-normal px-5">
+            Programación de avisos LED
+          </p>
+        </li>
+      </ul>        
+    </article>
+<!--CUARTA EXPERIENCIA-->     
+    <article id="job4" class="hidden">
+      <h3>Operador Técnico
+        <span class="text-sky-500 font-bold text-lg">@ISTM INGENIERÍA</span></h3>
+        <h4 class="text-sm pb-5">Agosto de 2008 - Noviembre de 2013</h4>
+        <ul>
+          <li class="flex items-center py-2">
+            <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+            <p class="text-stone-950 dark:text-cyan-50 font-normal px-5"> 
+                Ensamblar maquinaria y equipo antes de la instalación,
+                utilizando herramientas manuales o mecánicas y equipo de 
+                soldadura          
+              </p>
+            </li>
+            <li class="flex items-center py-2">
+              <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+              <p class="text-stone-950 dark:text-cyan-50 font-normal px-5"> 
+                Operar máquinas y herramientas como tornos y fresadoras 
+                para fabricar o reparar partes requeridas durante el 
+                acondicionamiento, mantenimiento o montaje de la maquinaria
+              </p>
+            </li>
+            <li class="flex items-center py-2">
+              <span class="pr-2 text-sky-500 text-lg">&#128736</span>
+              <p class="text-stone-950 dark:text-cyan-50 font-normal px-5">
+                Revisar maquinaria y equipo para detectar e investigar 
+                las irregularidades y mal funcionamiento
+              </p>
+            </li>
+          </ul>        
+        </article>
+    </div>
+    </section>
+<!-- SECCION DE CONTACTOS-->
+    <h3 class="text-3xl text-slate-700 dark:text-white mt-12 mb-10 px-10 
+    font-bold tracking-widest text-center">
+      Contáctame
+    </h3>
+    <section class="flex flex-col w-[90%] m-auto py-3">
+      <form 
+      action="" 
+      class="w-[90%] md:max-[600px] m-auto">
+        <div class="">
+          <input
+          placeholder=" info@ejemplo.com" 
+          type="email" 
+          name="email" 
+          id="email" 
+          class="p-3 w-full rounded-lg 
+          focus:outline-none focus:ring focus:ring-blue-400">
+        </div>
+        <div class="py-3">
+          <input 
+          placeholder=" Nombre"          
+          type="text" 
+          name="nombre" 
+          id="nombre" 
+          class="p-3 w-full rounded-lg 
+          focus:outline-none focus:ring focus:ring-blue-400">
+        </div>
+        <div>
+          <textarea 
+          placeholder=" Mensaje"
+          name="mensaje" 
+          id="mensaje" 
+          rows="6"
+          class="p-3 w-full rounded-lg 
+          focus:outline-none focus:ring focus:ring-blue-400"
+          ></textarea>
+        </div>
+        <div>
+          <button class="border-2 rounded border-sky-500
+          text-lg tracking-widest hover:bg-sky-500 
+          hover:dark:text-slate-900 text-white p-3 w-full">
+            Enviar mensaje
+          </button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="./src/app.js"></script>
+  <script>
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+  </script>
+</body>
+</html>
