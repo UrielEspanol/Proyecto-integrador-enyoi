@@ -98,3 +98,17 @@ jobLinks.forEach((link)=>{
   })
 })
 
+//Boton ocuro
+
+if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  document.documentElement.classList.add('dark');
+} else {
+  document.documentElement.classList.remove('dark')
+}
+
+//Direccionamiento del boton contratame 
+
+document.getElementById('button-contratame').onclick = function() {
+  window.location.href = 'https://api.whatsapp.com/send?phone=%2B573246100564&context=ARB6MsF9Tf5J6DKG7O-Y7ls-_8eFF-Z1gjHWUSa11M12yuJNavU6W6fEbaPLt88r4pmOMTJJn_B7hgsOQGXzjaPdrzSym1j-OO-vZ0wehapd7fvoEubSlxgQBOI1s5bvVC4SvORZjyeC7Ok7hoIp5ow&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR1WmgIo4nKl0CArEb1knmJ-ODOz4AuiG4q0yyyyNXeQVfWSNfyMk3PTNvA_aem_AaBZ8w2kQ3KUeptfQ3LtN-F2wWQeWHIXLuGjcXlE3Y9UGpGla_SPmKBoc1SdZhju6XMu3HMt0c38rPrgz5RsgU8j';
+};
+

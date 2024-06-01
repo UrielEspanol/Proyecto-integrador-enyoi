@@ -95,24 +95,32 @@
           ><i class="bi bi-linkedin px-2"></i>
           </a>
           <a class="pr-2 text-2xl
-          hover:text-sky-600" href="">
-            <i class="bi bi-github px-2"></i>
+          hover:text-sky-600" 
+          href="https://github.com/UrielEspanol"
+          target="_blank"
+          ><i class="bi bi-github px-2"></i>
           </a>
           <a class="pr-2 text-2xl 
-          hover:text-sky-600" href="">
-            <i class="bi bi-whatsapp px-2"></i>
+          hover:text-sky-600" 
+          href="https://api.whatsapp.com/send?phone=%2B573246100564&context=ARB6MsF9Tf5J6DKG7O-Y7ls-_8eFF-Z1gjHWUSa11M12yuJNavU6W6fEbaPLt88r4pmOMTJJn_B7hgsOQGXzjaPdrzSym1j-OO-vZ0wehapd7fvoEubSlxgQBOI1s5bvVC4SvORZjyeC7Ok7hoIp5ow&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR1WmgIo4nKl0CArEb1knmJ-ODOz4AuiG4q0yyyyNXeQVfWSNfyMk3PTNvA_aem_AaBZ8w2kQ3KUeptfQ3LtN-F2wWQeWHIXLuGjcXlE3Y9UGpGla_SPmKBoc1SdZhju6XMu3HMt0c38rPrgz5RsgU8j"
+          target="_blank"
+          ><i class="bi bi-whatsapp px-2"></i>
           </a>
           <a class="pr-2 text-2xl 
-          hover:text-sky-600" href="">
-            <i class="bi bi-instagram px-2"></i>
+          hover:text-sky-600" 
+          href="https://www.instagram.com/urielespanol?igsh=OHd3NnlsN2o2bHo5"
+          target="_blank"
+          ><i class="bi bi-instagram px-2"></i>
           </a>
         </div>
 <!--FIN REDES SOCIALES / CONTACTO-->
 <!--INICIO BOTON CONTRATAME-->
       <div>
-        <button class="border-2 rounded border-sky-500 p-4 w-[250px] 
+        <button 
+        id="button-contratame"
+        class="border-2 rounded border-sky-500 p-4 w-[250px] 
         text-lg tracking-widest hover:bg-sky-500 
-        hover:dark:text-slate-900 ">
+        hover:dark:text-slate-900">      
           Contrátame
         </button>
       </div>      
@@ -345,12 +353,12 @@
     </section>
   </main>
   <script src="./src/app.js"></script>
-  <script>
+  <!-- <script>
     if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.classList.add('dark');
     } else {
         document.documentElement.classList.remove('dark')
     }
-  </script>
+  </script> -->
 </body>
 </html>
